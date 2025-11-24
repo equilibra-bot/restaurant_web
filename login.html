@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Global Restaurant - Login</title>
+</head>
+<body>
+    <h1>GLOBAL Restaurant</h1>
+        <h3>Login</h3>
+    <form>
+        <label>Email ID:</label>
+        <input type="email" id="email-id" placeholder="enter email">
+        <br><br>
+
+        <label>Password:</label>
+        <input type="password" id="password" placeholder="enter password">
+        <br><br>
+
+        <button type="button" onclick="validateLogin()">Login</button>
+
+        <p id="error-message" style="color:red;"></p>
+
+        <p>Don't have an account? <a href="register.html">Register here</a></p>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

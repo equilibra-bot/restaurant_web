@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Checkout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <a href="main.html">Menu</a>
+    <a href="cart.html">Cart</a>
+    <a href="checkout.html">Checkout</a>
+</nav>
+
+<h1>Cash on Delivery - Checkout</h1>
+
+<input type="text" id="custName" placeholder="Your Name">
+<input type="text" id="custAddress" placeholder="Delivery Address">
+<input type="text" id="custMobile" placeholder="Mobile Number">
+
+<h2 id="checkoutTotal"></h2>
+
+<button onclick="placeOrder()">Place Order</button>
+
+<p id="orderMsg"></p>
+
+<script src="script.js"></script>
+</body>
+</html>
